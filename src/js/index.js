@@ -9,5 +9,5 @@ import "../styles/index.css";
 import App from "./views/App.jsx";
 
 //render your react application
+document.title = "React Landing Page";
 ReactDOM.createRoot(document.getElementById('app')).render(<App/>);
-
